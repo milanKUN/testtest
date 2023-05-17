@@ -1,0 +1,946 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (min-width:1024px) {
+
+
+
+    .nav {
+        /* border: 2px solidblack; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    .hadding {
+        height: 100px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px;
+        position: fixed;
+        overflow: hidden;
+        box-shadow: 0px 30px 36px rgba(159, 30, 176, 0.16);
+        /* display: flex; */
+        align-items: center;
+        z-index: 99999;
+    }
+
+    .logo {
+        /* border: 2px solid black; */
+        height:auto;
+        width: auto;
+        border-radius: 50px;
+        background-image: url("images.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        margin-top: 4px;
+    }
+
+    .surch {
+        display: flex;
+    }
+
+    .surch_food {
+        color: red;
+        height: 50px;
+        width: 400px;
+        background-color: #ecded9;
+        margin-top: 4px;
+        border: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .surch_buttom_div {
+        /* display: flex; */
+        /* justify-content: ; */
+        margin-top: 4px;
+        background-color: #d3d0cf;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .buttom_surch {
+        font-size: 20px;
+        height: 50px;
+        width: 4px;
+        /* padding-right: 50px; */
+        border: none;
+        color: rgb(0, 255, 51);
+        background-color: #d3d0cf;
+        margin-right: 30px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    .fa-magnifying-glass {
+        font-size: 25px;
+        background-color: #d3d0cf;
+    }
+
+    .surch_food:hover {
+        color: rgb(206, 19, 106);
+        transition: 1ms ease-in;
+        font-size: large;
+        transform: none;
+        width: 400px;
+        /* height: 50px; */
+        /* width: 450px; */
+    }
+
+    input[type="search"] {
+        color: red;
+    }
+
+
+    .div_menu {
+        /* border: 2px solid red; */
+        width: 700PX;
+        height: 50PX;
+        display: flex;
+        /* text-align: center; */
+        justify-content: space-between;
+        margin-top: 6px;
+
+    }
+
+    .menu {
+        text-decoration: none;
+        color: black;
+        white-space: 30px;
+        font-size: 20px;
+
+    }
+
+    .menu:hover {
+        color: rgb(206, 19, 134);
+        transition: 2ms ease-in;
+        font-size: x-large;
+        transform: none;
+    }
+
+    .slide {
+        /* border: 2px solid red; */
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-image: url("food_img2.jpg");
+    }
+
+    .content {
+        /* border:2px solid red; */
+        height: 550px;
+        width: 350px;
+        margin: 20px;
+        margin-top: 70px;
+        box-shadow: 0px 15px 26px rgba(163, 163, 163, 0.16);
+        background-color: antiquewhite;
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+    }
+
+    per {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .img_content:hover {
+        transition: 1px;
+        height: 320px;
+        width: 100%;
+        /* font-size:x-large; */
+        /* transform: none; */
+    }
+
+    .img_content {
+        /* border:2px solid red; */
+        height: 300px;
+        width: 100%;
+        background-image: url("barger.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    .paragraph_content {
+        /* border:2px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-right: 20px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .showmore {
+        text-decoration: none;
+        color: black;
+    }
+
+    .full_content {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .full_content2nd {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b_buttom {
+        padding: 15px 20px;
+        border: none;
+        box-shadow: 0 3px 5px rgb(142, 142, 142);
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    button:hover {
+        color: rgb(200, 29, 146);
+        height: 65px;
+        transition: 1ms;
+    }
+
+    .buttom_foot {}
+
+    .buttom_full_div {
+        height: 450px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        text-align: center;
+        margin-top: 40px;
+        background-color: beige;
+    }
+
+    .contuct_us {
+        /* display: flex; */
+        margin-top: 10px;
+        padding: 70px;
+
+    }
+
+    .fa-whatsapp {
+        font-size: 40px;
+        color: rgb(7, 190, 43);
+    }
+
+    .fa-facebook-f {
+        font-size: 40px;
+        color: rgb(58, 61, 185);
+    }
+
+    .fa-instagram {
+        font-size: 40px;
+        color: rgb(191, 57, 30);
+    }
+
+    .last_div {
+        /* border: 2px solid red; */
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+        background-color: rgb(250, 222, 185);
+    }
+
+    .gmail_last_div {}
+
+    .mail {
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .manu_last_div {
+        display: flex;
+    }
+
+    .lasst_manu {
+        padding: 15px;
+        margin-top: 4px;
+    }
+
+    .btn {
+        height: 70px;
+        width: 140px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 650px;
+        text-decoration: none;
+
+    }
+
+    .Button-slide {
+        padding: 15px 20px;
+        border: none;
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 25px;
+        font-weight: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Button-slide:hover {
+        color: rgb(157, 44, 140);
+        background-color: greenyellow;
+        height: 70px;
+        transition: margin-right 5s;
+    }
+}
+
+/* media */
+@media only screen and (max-with:1023px) and (min-width:780px) {
+
+    .nav {
+        border: 2px solidblack;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+    .hadding {
+        height:auto;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        padding: 0px;
+        position: fixed;
+        overflow: hidden;
+        box-shadow: 0px 30px 36px rgba(159, 30, 176, 0.16);
+        /* display: flex; */
+        align-items: center;
+        z-index: 99999;
+    }
+    .logo {
+        /* border: 2px solid black; */
+        height: 90px;
+        width: 90px;
+        border-radius: 50px;
+        background-image: url("images.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        margin-top:auto;
+    }
+
+    .surch {
+        display: flex;
+    }
+    .surch_food {
+        color: red;
+        height: 50px;
+        width: auto;
+        background-color: #ecded9;
+        margin-top: 7px;
+        border: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .surch_buttom_div {
+        /* display: flex; */
+        /* justify-content: ; */
+        margin-top: 4px;
+        background-color: #d3d0cf;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .buttom_surch {
+        font-size: 20px;
+        height: 50px;
+        width: auto;
+        /* padding-right: 50px; */
+        border: none;
+        color: rgb(0, 255, 51);
+        background-color: #d3d0cf;
+        margin-right: 3%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    .fa-magnifying-glass {
+        font-size: 25px;
+        background-color: #d3d0cf;
+    }
+
+    .surch_food:hover {
+        color: rgb(206, 19, 106);
+        transition: 1ms ease-in;
+        font-size: large;
+        transform: none;
+        width: 400px;
+        /* height: 50px; */
+        /* width: 450px; */
+    }
+
+    input[type="search"] {
+        color: red;
+    }
+
+
+    .div_menu {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 50PX;
+        display: flex;
+        /* text-align: center; */
+        /* justify-content: space-between; */
+        margin-top: 6px;
+
+    }
+
+    .menu {
+        text-decoration: none;
+        color: black;
+        /* white-space: 30px; */
+        font-size: 20%;
+
+    }
+
+    .menu:hover {
+        color: rgb(206, 19, 134);
+        transition: 2ms ease-in;
+        font-size: x-large;
+        transform: none;
+    }
+
+    .slide {
+        /* border: 2px solid red; */
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-image: url("food_img2.jpg");
+    }
+
+    .content {
+        /* border:2px solid red; */
+        height: 550px;
+        width: 350px;
+        margin: 20px;
+        margin-top: 70px;
+        box-shadow: 0px 15px 26px rgba(163, 163, 163, 0.16);
+        background-color: antiquewhite;
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+    }
+
+    per {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .img_content:hover {
+        transition: 1px;
+        height: 320px;
+        width: 100%;
+        /* font-size:x-large; */
+        /* transform: none; */
+    }
+
+    .img_content {
+        /* border:2px solid red; */
+        height: 300px;
+        width: 100%;
+        background-image: url("barger.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    .paragraph_content {
+        /* border:2px solid red; */
+        height: 200px;
+        width: 100%;
+        margin-right: 20px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .showmore {
+        text-decoration: none;
+        color: black;
+    }
+
+    .full_content {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .full_content2nd {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b_buttom {
+        padding: 15px 20px;
+        border: none;
+        box-shadow: 0 3px 5px rgb(142, 142, 142);
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    button:hover {
+        color: rgb(200, 29, 146);
+        height: 65px;
+        transition: 1ms;
+    }
+
+    .buttom_foot {}
+
+    .buttom_full_div {
+        height: 450px;
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        text-align: center;
+        margin-top: 40px;
+        background-color: beige;
+    }
+
+    .contuct_us {
+        /* display: flex; */
+        margin-top: 10px;
+        padding: 70px;
+
+    }
+
+    .fa-whatsapp {
+        font-size: 30px;
+        color: rgb(7, 190, 43);
+    }
+
+    .fa-facebook-f {
+        font-size: 30px;
+        color: rgb(58, 61, 185);
+    }
+
+    .fa-instagram {
+        font-size: 30px;
+        color: rgb(191, 57, 30);
+    }
+
+    .last_div {
+        /* border: 2px solid red; */
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+        background-color: rgb(250, 222, 185);
+    }
+
+    .gmail_last_div {}
+
+    .mail {
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .manu_last_div {
+        display: flex;
+    }
+
+    .lasst_manu {
+        padding: 15px;
+        margin-top: 4px;
+    }
+
+    .btn {
+        height: 70px;
+        width: 140px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 650px;
+        text-decoration: none;
+
+    }
+
+    .Button-slide {
+        padding: 15px 20px;
+        border: none;
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 25px;
+        font-weight: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Button-slide:hover {
+        color: rgb(157, 44, 140);
+        background-color: greenyellow;
+        height: 70px;
+        transition: margin-right 5s;
+    }
+}
+
+
+/* media */
+@media only screen and (max-width:1023px) and (min-width:480px) {
+
+    .nav {
+        display: flex;
+        border: 2px solid rgb(237, 40, 40);
+        height:auto;
+        width:1022px;
+        /* display: block; */
+        justify-content: space-between 20px;
+        /* margin: 30px; */
+        justify-items: center;
+        
+    }
+    .hadding {
+        height:auto;
+        /* width:1022px; */
+        background-color: rgb(250, 244, 244);
+        padding: 0px;
+        position: fixed;
+        overflow: hidden;
+        box-shadow: 0px 30px 36px rgba(159, 30, 176, 0.16);
+        display: flex;
+        /* align-items: center; */
+        justify-items: center;
+        z-index: 99999;
+    }
+    .logo {
+        /* border: 2px solid black; */
+        height:50px;
+        width: 50px;
+        border-radius:50%;
+        background-image: url("images.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        margin-top:auto;
+        /* margin: 15px; */
+    }
+
+    .surch {
+        display: flex;
+        justify-content:center;
+    }
+    .surch_food {
+        color: red;
+        height: 40px;
+        width: auto;
+        background-color: #ecded9;
+        margin-top:2px;
+        border: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-left: 40px;
+        
+    }
+
+    .surch_buttom_div {
+        /* display: flex; */
+        /* justify-content: ; */
+        height: 40px;
+        margin-top: 2px;
+        background-color: #d3d0cf;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .buttom_surch {
+        font-size: 20px;
+        height: 20px;
+        width: 1px;
+        /* padding-right: 50px; */
+        border: none;
+        color: rgb(0, 255, 51);
+        background-color: #d3d0cf;
+        margin-right: 15px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    .fa-magnifying-glass {
+        font-size: 25px;
+        background-color: #d3d0cf;
+    }
+
+    .surch_food:hover {
+        color: rgb(206, 19, 106);
+        transition: 1ms ease-in;
+        font-size: 15px;
+        transform: none;
+        width:auto;
+        /* height: 50px; */
+        /* width: 450px; */
+    }
+
+    input[type="search"] {
+        color: red;
+    }
+
+
+    .div_menu {
+        /* border: 2px solid red; */
+        width:auto;
+        height:auto;
+        display: flex;
+        /* text-align: center; */
+        justify-content: space-between;
+        margin-top: 1px;
+        margin-left: 40px;
+
+    }
+
+    .menu {
+        text-decoration: none;
+        color: black;
+        /* white-space: 30px; */
+        font-size: 20px;
+        margin-left: 25px;
+        /* justify-content: space-between; */
+    }
+
+    .menu:hover {
+        color: rgb(206, 19, 134);
+        transition: 2ms ease-in;
+        font-size: x-large;
+        transform: none;
+    }
+
+    .slide {
+        /* border: 2px solid red; */
+        height: 400px;
+        /* width: 800px; */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-image: url("food_img2.jpg");
+    }
+
+    .content{
+        /* border:2px solid red; */
+        height:auto;
+        width: auto;
+        margin: 10px;
+        margin-top: 40px;
+        box-shadow: 0px 15px 26px rgba(163, 163, 163, 0.16);
+        background-color: antiquewhite;
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+    }
+
+    per {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .img_content:hover {
+        transition: 1px;
+        height: 320px;
+        width: 100%;
+        /* font-size:x-large; */
+        /* transform: none; */
+    }
+
+    .img_content {
+        /* border:2px solid red; */
+        height: 280px;
+        width: 100%;
+        background-image: url("barger.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    .paragraph_content {
+        /* border:2px solid red; */
+        height: 230px;;
+        width: auto;
+        margin-right: 10px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .showmore {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* .full_content {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    } */
+    .full-content1-phone{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .full-content2-phone{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .full-content3-phone{
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .full_content2nd {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .b_buttom {
+        padding: 15px 20px;
+        border: none;
+        box-shadow: 0 3px 5px rgb(142, 142, 142);
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    button:hover {
+        color: rgb(200, 29, 146);
+        height: 65px;
+        transition: 1ms;
+    }
+
+    .buttom_foot {}
+
+    .buttom_full_div {
+        height: auto;
+        width: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        text-align: center;
+        margin-top: 40px;
+        background-color: beige;
+    }
+
+    .contuct_us {
+        /* display: flex; */
+        margin-top: 10px;
+        padding: 70px;
+
+    }
+
+    .fa-whatsapp {
+        font-size: 40px;
+        color: rgb(7, 190, 43);
+    }
+
+    .fa-facebook-f {
+        font-size: 40px;
+        color: rgb(58, 61, 185);
+    }
+
+    .fa-instagram {
+        font-size: 40px;
+        color: rgb(191, 57, 30);
+    }
+
+    .last_div {
+        /* border: 2px solid red; */
+        height:auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+        background-color: rgb(250, 222, 185);
+    }
+
+    .gmail_last_div {
+        width: auto;
+    }
+
+    .mail {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .manu_last_div {
+        display: flex;
+    }
+
+    .lasst_manu {
+        padding: 15px;
+        /* margin-top: 2px; */
+    }
+
+    .btn {
+        height: 70px;
+        width: 140px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 330px;
+        text-decoration: none;
+
+    }
+
+    .Button-slide {
+        padding: 15px 20px;
+        border: none;
+        border-radius: 8px;
+        margin: 0px 5px;
+        font-size: 25px;
+        font-weight: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Button-slide:hover {
+        color: rgb(157, 44, 140);
+        background-color: greenyellow;
+        height: 70px;
+        transition: margin-right 5s;
+    }
+
+    
+
+
+}

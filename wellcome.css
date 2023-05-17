@@ -1,0 +1,50 @@
+.full-div{
+    height:1300px;
+    width:100%;
+    /* border: 2px solid red; */
+}
+.logo-div{
+/* border: 2px solid red; */
+height: 300px;
+width: 300px;
+border-radius: 50%;
+background-image: url("images.jpeg");
+background-position:center;
+background-repeat:no-repeat;
+background-size: cover;
+/* margin-top: 70px; */
+margin: auto;
+}
+.front-div{
+color: rgb(102, 180, 47);
+display: flex;
+text-align: center;
+justify-content: center;
+font-size: 90px;
+}
+.MK{
+    color: rgb(230, 45, 39);
+}
+.go-to{
+    font-size: large;
+    height: 60px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: rgb(101, 199, 101);
+    color: rgb(128, 61, 61);
+    border-radius:1px solid green;
+    box-shadow: 5px 5px 7px rgb(142, 142, 142);
+}
+.go-to-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.go-to:hover{
+    transition: 2ms;
+    height: 63px;
+    width: 324px;
+    color: black;
+    background-color: antiquewhite;
+    box-shadow: 8px 9px 12px rgb(142, 142, 142);
+}
